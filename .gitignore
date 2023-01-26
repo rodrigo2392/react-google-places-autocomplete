@@ -30,8 +30,6 @@ typings/
 # dotenv environment variables file
 .env
 
-# Ignore build
-build
 
 .DS_Store
 
