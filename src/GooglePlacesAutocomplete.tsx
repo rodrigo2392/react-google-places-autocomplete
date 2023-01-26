@@ -75,6 +75,7 @@ const GooglePlacesAutocomplete: React.ForwardRefRenderFunction<GooglePlacesAutoc
   return (
     <AsyncSelect
       {...selectProps}
+      placeholder="selecciona un lugar"
       loadOptions={fetchSuggestions}
       getOptionValue={({ value }) => value.place_id}
     />
